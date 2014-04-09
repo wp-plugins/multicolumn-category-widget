@@ -20,7 +20,7 @@ By default two columns are used, but you can set any number of columns you like 
 
 == Installation ==
 
-1. Extract the contents of `multicolumn-category-widget.zip` to the
+1. Extract the contents of `multicolumn-category-widget.1.0.1.zip` to the
    `/wp-content/plugins/multicolumn-category-widget` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
@@ -45,17 +45,17 @@ po/mo files for the next update.
 
 == Changelog ==
 
-= 1.0 =
-* First release.
-
 = 1.0.1 =
 * Added French and Italian
 * Added translation template (pot)
 
-== Upgrade Notice ==
-
 = 1.0 =
-First release.
+* First release.
+
+== Upgrade Notice ==
 
 = 1.0.1 =
 This release adds new languages (French, Italian) and a translation template (pot).
+
+= 1.0 =
+First release.
