@@ -20,8 +20,8 @@ By default two columns are used, but you can set any number of columns you like 
 
 == Installation ==
 
-1. Extract the contents of `multicolumn-category-widget.1.0.1.zip` to the
-   `/wp-content/plugins/multicolumn-category-widget` directory
+1. Extract the contents of the package to the `/wp-content/plugins/multicolumn-category-widget`
+   directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
