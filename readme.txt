@@ -3,7 +3,7 @@ Contributors: awelzel
 Tags: widget, category
 Requires at least: 3.6
 Tested up to: 3.8.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,9 +45,12 @@ po/mo files for the next update.
 
 == Changelog ==
 
+= 1.0.2 =
+* Fixed a bug in the title output: Standard title was displayed even with a custom title set.
+
 = 1.0.1 =
-* Added French and Italian
-* Added translation template (pot)
+* Added French and Italian.
+* Added translation template (pot).
 
 = 1.0 =
 * First release.
