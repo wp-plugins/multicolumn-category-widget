@@ -2,8 +2,8 @@
 Contributors: awelzel
 Tags: widget, category
 Requires at least: 3.6
-Tested up to: 3.8.2
-Stable tag: 1.0.2
+Tested up to: 3.8.3
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,6 +44,9 @@ po/mo files for the next update.
 2. Example for the use in the frontend
 
 == Changelog ==
+
+= 1.0.3 =
+* Updated WordPress compatibility information (3.8.3)
 
 = 1.0.2 =
 * Fixed a bug in the title output: Standard title was displayed even with a custom title set.
