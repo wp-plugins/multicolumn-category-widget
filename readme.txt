@@ -18,6 +18,8 @@ custom title and the number of columns to be displayed.
 
 By default two columns are used, but you can set any number of columns you like in the backend.
 
+Also see details at <http://arnowelzel.de/wp/en/projects/wordpress/multicolumn-category-widget>.
+
 == Installation ==
 
 1. Extract the contents of the package to the `/wp-content/plugins/multicolumn-category-widget`
