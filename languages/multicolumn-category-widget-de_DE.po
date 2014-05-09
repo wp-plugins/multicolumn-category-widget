@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Multicolumn Category Widget\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Sun Apr 06 2014 08:12:44 GMT+0200\n"
-"PO-Revision-Date: Sun Apr 06 2014 08:13:15 GMT+0200\n"
+"PO-Revision-Date: Fri May 09 2014 11:34:43 GMT+0200\n"
 "Last-Translator: Arno Welzel <privat@arnowelzel.de>\n"
 "Language-Team: \n"
 "Language: German\n"
@@ -22,18 +22,22 @@ msgstr ""
 "X-Loco-Target-Locale: de_DE\n"
 "X-Generator: Loco - https://localise.biz/"
 
-#: ../multicolumn-category-widget.php:46
+#: ../multicolumn-category-widget.php:42
 msgid "Multicolumn Category Widget"
 msgstr "Mehrspaltiges Kategorie-Widget"
 
-#: ../multicolumn-category-widget.php:69
+#: ../multicolumn-category-widget.php:66
 msgid "Categories"
 msgstr "Kategorien"
 
-#: ../multicolumn-category-widget.php:133
+#: ../multicolumn-category-widget.php:146
 msgid "Title"
 msgstr "Titel"
 
-#: ../multicolumn-category-widget.php:137
+#: ../multicolumn-category-widget.php:150
 msgid "Number of columns"
 msgstr "Anzahl der Spalten"
+
+#: ../multicolumn-category-widget.php:154
+msgid "Show post counts"
+msgstr "Anzahl Beiträge anzeigen"

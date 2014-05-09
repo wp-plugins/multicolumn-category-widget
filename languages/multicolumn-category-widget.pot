@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Multicolumn Category Widget\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Wed Apr 09 2014 08:13:50 GMT+0200\n"
-"POT-Revision-Date: Wed Apr 09 2014 08:13:58 GMT+0200\n"
+"POT-Revision-Date: Fri May 09 2014 11:34:06 GMT+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -28,14 +28,18 @@ msgstr ""
 msgid "Multicolumn Category Widget"
 msgstr ""
 
-#: ../multicolumn-category-widget.php:65
+#: ../multicolumn-category-widget.php:66
 msgid "Categories"
 msgstr ""
 
-#: ../multicolumn-category-widget.php:134
+#: ../multicolumn-category-widget.php:146
 msgid "Title"
 msgstr ""
 
-#: ../multicolumn-category-widget.php:138
+#: ../multicolumn-category-widget.php:150
 msgid "Number of columns"
+msgstr ""
+
+#: ../multicolumn-category-widget.php:154
+msgid "Show post counts"
 msgstr ""
