@@ -50,7 +50,7 @@ po/mo files for the next update.
 
 = 1.0.5 =
 * Updated WordPress compatibility information (3.9.1)
-* Added "show posts count" option
+* Added "show post counts" option
 
 = 1.0.4 =
 * Updated WordPress compatibility information (3.9)
