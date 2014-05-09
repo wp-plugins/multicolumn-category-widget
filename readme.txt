@@ -2,8 +2,8 @@
 Contributors: awelzel
 Tags: widget, category
 Requires at least: 3.6
-Tested up to: 3.9
-Stable tag: 1.0.4
+Tested up to: 3.9.1
+Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,6 +44,10 @@ po/mo files for the next update.
 2. Example for the use in the frontend
 
 == Changelog ==
+
+= 1.0.5 =
+* Updated WordPress compatibility information (3.9.1)
+* Added "show posts count" option
 
 = 1.0.4 =
 * Updated WordPress compatibility information (3.9)

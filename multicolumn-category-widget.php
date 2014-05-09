@@ -90,16 +90,22 @@ class MulticolumnCategoryWidget extends WP_Widget {
 				}
 			}
 			$result_number++;
-			printf('<li class="cat-item cat-item-%d"><a href="%s" title="%s">%s</a></li>',
+			$postcount = '';
+			if($instance['showcount'] == 1) {
+				$posts = get_term_by('name',$category->cat_name,'category');
+				$postcount = ' <span class="postcount">('.$posts->count.')</span>';
+			}
+			printf('<li class="cat-item cat-item-%d"><a href="%s" title="%s">%s</a>%s</li>',
 				$category->term_id,
 				get_category_link($category->term_id),
 				esc_attr($category->category_description),
-				esc_html($category->cat_name));
+				esc_html($category->cat_name),
+				$postcount);
 		}
 		echo '</ul>';
 		
-        echo $after_widget;
-    }
+		echo $after_widget;
+	}
 
 	/**
 	 * Update widget in the backend
@@ -112,8 +118,9 @@ class MulticolumnCategoryWidget extends WP_Widget {
 		$instance          = $old_instance;
 		$instance['title'] = strip_tags($new_instance['title']);
 		$instance['columns'] = strip_tags($new_instance['columns']);
-        return $instance;
-    }
+		$instance['showcount'] = strip_tags($new_instance['showcount']);
+		return $instance;
+	}
 
 	/**
 	 * Display an input-form in the backend
@@ -128,9 +135,13 @@ class MulticolumnCategoryWidget extends WP_Widget {
 		if(isset($instance['columns']) && ctype_digit($instance['columns'])) $columns = $instance['columns'];
 		if($columns < 1) $columns = 1;
 		
+		$showcount = 0;
+		if(isset($instance['showcount']) && $instance['showcount']==1) $showcount = 1;
+		
 		printf(
 			'<p><label for="%1$s">%2$s:</label> <input class="widefat" id="%1$s" name="%3$s" type="text" value="%4$s" /></p>'.
-			'<p><label for="%5$s">%6$s:</label> <input id="%5$s" name="%7$s" type="text" size="3" value="%8$s" /></p>',
+			'<p><label for="%5$s">%6$s:</label> <input id="%5$s" name="%7$s" type="text" size="3" value="%8$s" /></p>'.
+			'<p><input id="%9$s" name="%11$s" type="checkbox" value="1" %12$s /> <label for="%9$s">%10$s</label></p>',
 			$this->get_field_id('title'),
 			__('Title', 'multicolumn-category-widget'),
 			$this->get_field_name('title'),
@@ -138,7 +149,11 @@ class MulticolumnCategoryWidget extends WP_Widget {
 			$this->get_field_id('columns'),
 			__('Number of columns', 'multicolumn-category-widget'),
 			$this->get_field_name('columns'),
-			esc_attr($columns));
+			esc_attr($columns),
+			$this->get_field_id('showcount'),
+			__('Show post counts', 'multicolumn-category-widget'),
+			$this->get_field_name('showcount'),
+			$showcount==1?'checked="checked"':'');
 	}
 }
 
