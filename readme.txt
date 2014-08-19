@@ -2,8 +2,8 @@
 Contributors: awelzel
 Tags: widget, category
 Requires at least: 3.6
-Tested up to: 3.9.1
-Stable tag: 1.0.7
+Tested up to: 4.0.0
+Stable tag: 1.0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,6 +47,9 @@ po/mo files for the next update.
 
 == Changelog ==
 
+= 1.0.8 =
+* Updated compatibility to support WordPress 4.0
+
 = 1.0.7 =
 * Fixed version information
 
@@ -74,6 +77,10 @@ po/mo files for the next update.
 * First release.
 
 == Upgrade Notice ==
+
+= 1.0.8 =
+This release adds no new functionality. It's just an update of the compatibility
+information for WordPress 4.0.
 
 = 1.0.1 =
 This release adds new languages (French, Italian) and a translation template (pot).
