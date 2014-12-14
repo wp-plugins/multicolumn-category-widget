@@ -3,7 +3,7 @@ Contributors: awelzel
 Tags: widget, category
 Requires at least: 3.6
 Tested up to: 4.0.0
-Stable tag: 1.0.8
+Stable tag: 1.0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +46,9 @@ po/mo files for the next update.
 2. Example for the use in the frontend
 
 == Changelog ==
+
+= 1.0.9 =
+* Added Russian (thanks Flector)
 
 = 1.0.8 =
 * Updated compatibility to support WordPress 4.0
