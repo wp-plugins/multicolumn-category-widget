@@ -40,6 +40,16 @@ if needed.
 If you want to provide a translation in your language which is missing yet, you're welcome to send me the
 po/mo files for the next update.
 
+= The categories are not displayed in multiple columns, why? =
+
+The layout uses multiple lists which are displayed next to each other using the CSS rule `display:inline-block`.
+
+This means: If there not enough room to display multiple columns (either because the sidebar of the template is
+too narrow or the available viewport of the device is very small), the browser will eventually fall back to
+show only a single column. But this is intentional to make sure that the category list is always completely
+visible - even on smaller screens or on narrow smaller sidebars - and won't break the layout of the template
+by using more room as available.
+
 == Screenshots ==
 
 1. Configuration options of the widget in the backend
