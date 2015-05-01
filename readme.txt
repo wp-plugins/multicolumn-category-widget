@@ -2,8 +2,8 @@
 Contributors: awelzel
 Tags: widget, category
 Requires at least: 3.6
-Tested up to: 4.2.0
-Stable tag: 1.0.11
+Tested up to: 4.2.1
+Stable tag: 1.0.12
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,6 +56,9 @@ by using more room as available.
 2. Example for the use in the frontend
 
 == Changelog ==
+
+= 1.0.12 =
+* Added placeholder for the category title in the backend configuration options
 
 = 1.0.11 =
 * Updated compatibility information for WordPress 4.1.1
