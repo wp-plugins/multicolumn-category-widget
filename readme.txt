@@ -50,6 +50,11 @@ show only a single column. But this is intentional to make sure that the categor
 visible - even on smaller screens or on narrow smaller sidebars - and won't break the layout of the template
 by using more room as available.
 
+In rare cases a template or a plugin changes the default behaviour of the WordPress core function `the_widget()`,
+which usually outputs widgets with their own CSS classes - in this case you might have to add your own styles
+based on the rules in `css/frontend.css` but without `.widget_multicolumncategorywidget`. However the better
+solution would be to check the template and/or other plugins, why the widget specific CSS classes are missing.
+
 == Screenshots ==
 
 1. Configuration options of the widget in the backend
