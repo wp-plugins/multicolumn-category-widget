@@ -170,7 +170,7 @@ function mccw_scripts_init() {
 		'multicolumn-category-widget',
 		plugins_url('css/frontend.css', __FILE__),
 		array(),
-		'1.0.10'
+		'1.0.12'
 	);
 	wp_enqueue_style('multicolumn-category-widget');
 }
