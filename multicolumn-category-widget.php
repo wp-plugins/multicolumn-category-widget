@@ -3,8 +3,8 @@
 Plugin Name: Multicolumn Category Widget
 Plugin URI: http://wordpress.org/plugins/multicolumn-category-widget/
 Description: A widget to display categories in multiple columns
-Version: 1.0.12
-Date: 01 May 2015
+Version: 1.0.13
+Date: 26 July 2015
 Author: Arno Welzel <privat@arnowelzel.de>
 Author URI: http://arnowelzel.de
 Text Domain: multicolumn-category-widget
@@ -170,7 +170,7 @@ function mccw_scripts_init() {
 		'multicolumn-category-widget',
 		plugins_url('css/frontend.css', __FILE__),
 		array(),
-		'1.0.12'
+		'1.0.13'
 	);
 	wp_enqueue_style('multicolumn-category-widget');
 }
