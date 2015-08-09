@@ -30,7 +30,8 @@ Also see details at <http://arnowelzel.de/wp/en/projects/wordpress/multicolumn-c
 
 = How can I customize the style of the widget? =
 
-All styles can be found in `css/frontend.css`.
+All styles can be found in `css/frontend.css`. Since these styles get overwritten when updating the widget,
+you should add the custom styles to your theme.
 
 = Is it possible to get more translations? =
 
